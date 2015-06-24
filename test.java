@@ -23,6 +23,13 @@ import java.util.jar.Attributes.Name;
  *
  *	Core Java;
  *		//TO-Do
+ 		How to create Immutable Class:
+ 		1. Make Class final : This will don't allow any one to override instance varibles in the subclass.
+ 		2. Make all Instance variables Final and Private: Being Private is oops. All variable must be private if they don't need to be changed outside the class.
+ 								  Final will force no setter method. Additional check for immutibility.
+		3. No Setter Method.
+		4. No Reference of Mutable object (List/Date) should be passed. Pass only copy of object. This will prevent any changes in object ouside the immutable class.
+ 		
  *
  *	Struts;
  *		//TO-DO
