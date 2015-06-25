@@ -31,7 +31,7 @@ import java.util.jar.Attributes.Name;
 		4. No Reference of Mutable object (List/Date) should be passed. Pass only copy of object. This will prevent any changes in object ouside the immutable class.
  		5. Make a parameterized constructors. Always store a copy of objects not the orignal objects(For Mutable objects). This is because if we store the reference 
  						      of passed object then anyone can modify object ouside our class.
- *
+ *	INHERITANCE :- Base class constructors are called before derived-class.
  *	Struts;
  *		//TO-DO
  *
